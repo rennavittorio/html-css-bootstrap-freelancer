@@ -55,6 +55,10 @@ main section {
     max-width: 200px;
 }
 
+/* about */
+.about {
+    background-color: var(--bluegreen);
+}
 
 /* reponsive */
 /* // Small devices (landscape phones, 576px and up) */
