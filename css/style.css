@@ -42,7 +42,8 @@ img {
 }
 
 /* main */
-main section {
+main section,
+footer section {
     padding: 50px 0;
 }
 
@@ -71,6 +72,27 @@ main section {
 .contact-me .btn {
     background-color: var(--bluegreen);
     border-color: transparent;
+}
+
+/* footer */
+/* more-info */
+.more-info {
+    background-color: var(--lightgreyblue);
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon > i {
+    font-size: 1.5rem;
+    color: var(--white);
 }
 
 /* reponsive */
