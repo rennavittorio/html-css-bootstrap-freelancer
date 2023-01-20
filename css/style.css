@@ -32,9 +32,20 @@ img {
 /* end */
 
 /* general rules */
-* {
+.darksec {
+    color: var(--white);
+}
+
+.lightsec {
     color: var(--black);
 }
+ 
+.section__title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 
 /* header rules */
 .header {
@@ -93,6 +104,11 @@ footer section {
 .social-icon > i {
     font-size: 1.5rem;
     color: var(--white);
+}
+
+/* copyright */
+.copyright {
+    background-color: var(--greyblue);
 }
 
 /* reponsive */
