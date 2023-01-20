@@ -60,6 +60,19 @@ main section {
     background-color: var(--bluegreen);
 }
 
+
+/* contact-me */
+.contact-me .form-control {
+    border: 1px solid;
+    border-radius: 0;
+    border-color: transparent transparent lightgrey transparent;
+}
+
+.contact-me .btn {
+    background-color: var(--bluegreen);
+    border-color: transparent;
+}
+
 /* reponsive */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
