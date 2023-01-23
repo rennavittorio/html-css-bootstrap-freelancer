@@ -72,6 +72,13 @@ footer section {
     background-color: var(--bluegreen);
 }
 
+.about .btn,
+.about .btn:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
 
 /* contact-me */
 .contact-me .form-control {
@@ -83,6 +90,15 @@ footer section {
 .contact-me .btn {
     background-color: var(--bluegreen);
     border-color: transparent;
+}
+
+.footer a {
+    color: var(--bluegreen);
+}
+
+/* copyright */
+.copyright {
+    text-transform: capitalize;
 }
 
 /* footer */
